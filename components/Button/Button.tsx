@@ -1,7 +1,8 @@
 import React from 'react'
 import { TouchableOpacity, TouchableOpacityProps } from 'react-native'
+import { Typography } from '../Typography'
 
-import { styles } from '/ui/Button/styles'
+import { styles } from '/components/Button/styles'
 
 type ButtonProps = TouchableOpacityProps & { variant?: 'primary' | 'secondary' }
 
@@ -19,6 +20,6 @@ export const Button = ({
     disabled={disabled}
     {...props}
   >
-    {children}
+    <Typography>{children}</Typography>
   </TouchableOpacity>
 )

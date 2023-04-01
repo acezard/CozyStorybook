@@ -1,7 +1,7 @@
 import React from 'react'
 import { Text, TextProps } from 'react-native'
 
-import { styles } from '/ui/Typography/styles'
+import { styles } from '/components/Typography/styles'
 
 type TypographyVariant =
   | 'h1'

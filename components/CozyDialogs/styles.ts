@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native'
 
-import { palette } from '/ui/palette'
+import { palette } from '/components/palette'
 
 export const styles = StyleSheet.create({
   actions: {

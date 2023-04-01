@@ -2,8 +2,8 @@ import React from 'react'
 import { Platform, TextInput, TextInputProps, View } from 'react-native'
 import { MaskInputProps } from 'react-native-mask-input'
 
-import { Typography } from '/ui/Typography'
-import { styles } from '/ui/TextField/styles'
+import { Typography } from '/components/Typography'
+import { styles } from '/components/TextField/styles'
 
 export interface TextFieldProps extends TextInputProps {
   cursorColor?: string

@@ -1,11 +1,11 @@
 import React, { ReactElement } from 'react'
 import { Modal, Pressable, StyleProp, View, ViewStyle } from 'react-native'
 
-import { Cross } from '/ui/Icons/Cross'
-import { Icon } from '/ui/Icon'
-import { IconButton } from '/ui/IconButton'
-import { Typography } from '/ui/Typography'
-import { styles } from '/ui/CozyDialogs/styles'
+import { Cross } from '/components/Icons/Cross'
+import { Icon } from '/components/Icon'
+import { IconButton } from '/components/IconButton'
+import { Typography } from '/components/Typography'
+import { styles } from '/components/CozyDialogs/styles'
 
 interface ConfirmDialogProps {
   actions:

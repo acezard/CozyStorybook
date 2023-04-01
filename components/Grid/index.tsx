@@ -1,7 +1,7 @@
 import React from 'react'
 import { View, ViewProps } from 'react-native'
 
-import { styles } from '/ui/Grid/styles'
+import { styles } from '/components/Grid/styles'
 
 interface GridProps extends ViewProps {
   alignItems?: 'flex-start' | 'baseline' | 'center' | 'flex-end' | 'stretch'

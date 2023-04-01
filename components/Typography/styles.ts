@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native'
 
-import { palette } from '/ui/palette'
+import { palette } from '/components/palette'
 
 export const styles = StyleSheet.create({
   base: { fontFamily: 'Lato-Regular' },
@@ -12,12 +12,12 @@ export const styles = StyleSheet.create({
   textSecondary: { color: palette.Common.white },
   error: { color: palette.Primary.ContrastText },
   h4: {
-    fontFamily: 'Lato-Bold',
+    fontFamily: 'Lato',
     fontSize: 20,
     lineHeight: 23
   },
   body2: {
-    fontFamily: 'Lato-Regular',
+    fontFamily: 'Lato',
     fontSize: 14,
     lineHeight: 19
   },
@@ -28,7 +28,7 @@ export const styles = StyleSheet.create({
   },
   button: {
     color: palette.Primary['600'],
-    fontFamily: 'Lato-Bold',
+    fontFamily: 'Lato',
     fontSize: 14,
     lineHeight: 18,
     textTransform: 'uppercase',
@@ -38,7 +38,7 @@ export const styles = StyleSheet.create({
   h2: { fontSize: 16 },
   h3: {
     fontSize: 20,
-    fontFamily: 'Lato-Bold',
+    fontFamily: 'Lato',
     color: palette.Grey['900']
   },
   h5: { fontSize: 16 },

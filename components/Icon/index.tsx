@@ -2,7 +2,7 @@ import React from 'react'
 import { StyleProp, ViewStyle } from 'react-native'
 import { XmlProps } from 'react-native-svg'
 
-import { styles } from '/ui/Icon/styles'
+import { styles } from '/components/Icon/styles'
 
 interface IconProps {
   icon: (props: Omit<XmlProps, 'xml'>) => JSX.Element
