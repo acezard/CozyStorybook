@@ -1,7 +1,6 @@
 import React from 'react'
 import { SafeAreaView, View, ViewProps } from 'react-native'
 
-import { useDimensions } from '/libs/dimensions'
 import { styles } from '/components/Container/styles'
 
 type ContainerProps = ViewProps
@@ -11,7 +10,7 @@ export const Container = ({
   style,
   ...props
 }: ContainerProps): JSX.Element => {
-  const dimensions = useDimensions()
+  const dimensions = { navbarHeight: 48 }
 
   return (
     <View

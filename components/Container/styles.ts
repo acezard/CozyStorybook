@@ -1,9 +1,8 @@
 import { StyleSheet } from 'react-native'
 
-import { getDimensions } from '/libs/dimensions'
 import { palette } from '/components/palette'
 
-const { statusBarHeight } = getDimensions()
+const statusBarHeight = 24
 
 export const styles = StyleSheet.create({
   container: {

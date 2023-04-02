@@ -1,5 +1,6 @@
 import React from 'react'
 import { TouchableOpacity, TouchableOpacityProps } from 'react-native'
+
 import { Typography } from '../Typography'
 
 import { styles } from '/components/Button/styles'
