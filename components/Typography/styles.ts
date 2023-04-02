@@ -30,6 +30,7 @@ export const styles = StyleSheet.create({
     color: palette.Primary['600'],
     fontFamily: 'Lato',
     fontSize: 14,
+    fontWeight: '700',
     lineHeight: 18,
     textTransform: 'uppercase',
     textAlign: 'center'

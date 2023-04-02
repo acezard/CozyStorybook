@@ -12,7 +12,11 @@ export default {
 } as ComponentMeta<typeof Button>
 
 export const Primary: ComponentStory<typeof Button> = () => (
-  <Button>Primary</Button>
+  <Button>
+    <Typography color="primary" variant="button">
+      Primary
+    </Typography>
+  </Button>
 )
 
 export const Secondary: ComponentStory<typeof Button> = () => (

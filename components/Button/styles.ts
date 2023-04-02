@@ -7,6 +7,7 @@ export const styles = StyleSheet.create({
     borderRadius: 2,
     paddingHorizontal: 16,
     paddingVertical: 11,
+    textAlign: 'center',
     width: '100%'
   },
   primary: {
